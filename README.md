@@ -13,9 +13,7 @@
 
 
 ## Token Service :
-
-
-count| 0
+!["counter table"](counter.PNG?raw=true)
 
 
 ## References :
