@@ -5,7 +5,7 @@
 
 
 ## Design :
-1. Each application instance on startup request the token service , to provide s range of tokens (e.g. 100 tokens), that it can use to generate short urls.
+1. Each application instance on startup request the token service , to provide a range of tokens (e.g. 100 tokens), that it can use to generate short urls.
 
 2. Also when a app server is out of tokens, then also it asks the token service to provide the range of tokens that it can use.
 
