@@ -10,3 +10,7 @@
 2. Also when a app server is out of tokens, then also it asks the token service to provide the range of tokens that it can use.
 
 3. One small issue with the above design is, if a app server crashes in the middle than the range of tokens the server was assigned will be lost.
+
+
+## References :
+
