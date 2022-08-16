@@ -34,6 +34,9 @@ urls
 short_url |  varchar(30) | Primary Key
 long_url | varchar(500) |
 ```
+Application generates the base62/base64 value from the current count. And increment the value of count.
+
+e.g. stackoverflow.com gets shortened to tiny.com/hyd28re
 
 ## References :
 
