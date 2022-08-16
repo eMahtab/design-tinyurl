@@ -12,5 +12,12 @@
 3. One small issue with the above design is, if a app server crashes in the middle than the range of tokens the server was assigned will be lost.
 
 
+## Token Service :
+
+
+Counter
+---
+0
+
 ## References :
 
