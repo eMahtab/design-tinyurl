@@ -27,5 +27,11 @@ Now if we get a new request for token generation, we will allow it to use the va
 
 We read the count value from counter table and do the update in a transaction, and commit the transaction. As multiple servers might make the request to token service at a single point of time.
 
+# Short URL Generation
+
+urls|
+short_url |  varchar(30) |
+long_url | varchar(500) |
+
 ## References :
 
